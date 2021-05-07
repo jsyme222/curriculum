@@ -27,7 +27,7 @@ revisionQuestion:
 
 `fn.call()` allows you to call a function and provide an alternative value for the functions *this* context.
 
-The first argument `fn.call()` accepts is the alternative *this* context and any following arguments are passed as parameters. 
+The first argument `fn.call()` will accept is the alternative *this* context and any following arguments are passed as parameters. 
 
 The code below defines a *discount* of *10* that will be retrieved within *getDiscount* via a call to `this.discount`:
 
